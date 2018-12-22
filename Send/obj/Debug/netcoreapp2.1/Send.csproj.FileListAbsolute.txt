@@ -1,0 +1,11 @@
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\bin\Debug\netcoreapp2.1\Send.deps.json
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\bin\Debug\netcoreapp2.1\Send.runtimeconfig.json
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\bin\Debug\netcoreapp2.1\Send.runtimeconfig.dev.json
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\bin\Debug\netcoreapp2.1\Send.dll
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\bin\Debug\netcoreapp2.1\Send.pdb
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\obj\Debug\netcoreapp2.1\Send.csprojResolveAssemblyReference.cache
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\obj\Debug\netcoreapp2.1\Send.csproj.CoreCompileInputs.cache
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfoInputs.cache
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfo.cs
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\obj\Debug\netcoreapp2.1\Send.dll
+C:\Users\Yugov\Projects\dotnetcore\HowtoRabbitmqWithDotnet\Send\obj\Debug\netcoreapp2.1\Send.pdb
