@@ -14,11 +14,16 @@ namespace Receive
             {
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare(queue: "task_queue",
+                    channel.ExchangeDeclare(exchange: "logs", type: "fanout");
+
+                    channel.QueueDeclare(queue: "t_queue",
                                          durable: false, //persist to disk.
                                          exclusive: false,
                                          autoDelete: false,
                                          arguments: null);
+
+                    channel.QueueBind(queue: "t_queue", exchange: "logs", routingKey: "");
+
                     
                     channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
@@ -31,7 +36,7 @@ namespace Receive
                         channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
                     };
 
-                    channel.BasicConsume(queue: "task_queue",
+                    channel.BasicConsume(queue: "t_queue",
                                          autoAck: false,
                                          consumer: consumer);
 
